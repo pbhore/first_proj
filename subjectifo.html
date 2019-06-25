@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="subjectinfo.js"></script>
+</head>
+<body>
+   select Subject<select name="subject" id="subject" onchange="displaySubjectInfo(this.value)">
+        
+        <option value="c++">C++</option>
+        <option value="java">java</option>
+        <option value="angular">Angular</option>
+    </select>
+    <div>
+        Name:<span id="name" ></span>
+        <br>
+        Father:<span id="father" ></span>
+        <br>
+        Year:<span id="year" ></span>
+        <br>
+    </div>
+   
+</body>
+
+</html>

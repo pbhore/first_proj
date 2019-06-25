@@ -1,0 +1,30 @@
+<html>
+    <head>
+       
+        <script src="Register.js"> </script> 
+        <tittle></tittle>
+        <body>
+         <center>
+            <form  action="" onsubmit="ValidateForm()" text="text.javascript" >
+             <h1>Registration Form</h1>
+                <table border="1" width="400px" height="200px">
+                    <tr><td>Name</td><td><input type="text" id="name" ><span id="nameerror" style="color:red"></span></td></tr>
+                    
+                    <tr><td>Gender</td>
+                    <td>
+                    <input type="radio" name="gender" id="gender">MALE
+                    <input type="radio" name="gender" id="gender">FEMALE
+                    <span id="gendererror" style="color:red"></span>  </td></tr>
+                    <tr><td>HOBBY</td><td><select id="hobby">
+                        <option value="dance">Dancing</option>
+                        <option value="cooking">Cooking</option>
+                        <option value="reading">Reading</option>
+                        <option value="treaking">Treaking</option>
+                    </select></td></tr>
+                   <tr><td colspan="2" align="center"><input type="submit" value="submit"></td></tr>
+                </table>
+            </form>
+           </center>
+        </body>
+    </head>
+</html>
